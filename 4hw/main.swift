@@ -38,7 +38,7 @@ var names = ["Alina", "Bektur", "Aliya", "Elina", "Daniel", "Artur"]
 
 func name_a(){
     for char_a in names{
-        if char_a == "Alina"{
+        if char_a == "Alina" {
             print(names[0])
             print(names[2])
             print(names[5])
@@ -46,29 +46,3 @@ func name_a(){
     }
 }
 name_a()
-
-//код не корректен, я не поняла, как по-другому
-
-//func name_a(){
-//    for nameA in names{
-//        if nameA == "A"{
-//            print(names)
-//        }
-//    }
-//}
-//name_a()
-
-//var str = 0
-//
-//func char_a(letter: Character){
-//
-//    for char in names{
-//        if char == "A"{
-//            str += 1
-//        }
-//    }
-//    print("Всего имен на букву A: \(names)")
-//}
-//
-//char_a(letter: "a")
-
