@@ -35,14 +35,14 @@ money()
 
 //3) Создать массив имен учитывая алфавит. Пройтись циклом и считать сколько имен имеется на букву “A” и т.
 var names = ["Alina", "Bektur", "Aliya", "Elina", "Daniel", "Artur"]
+var a = 0
+print("Ваша буква: ")
+var char_a = readLine()!
 
-func name_a(){
-    for char_a in names{
-        if char_a == "Alina" {
-            print(names[0])
-            print(names[2])
-            print(names[5])
-        }
+for i in names{
+    if String(i.first!) == char_a{
+        a += 1
     }
 }
-name_a()
+
+print("Имен на букву \(char_a) - \(a)")
