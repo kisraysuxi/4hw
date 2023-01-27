@@ -13,7 +13,7 @@ var ruble = "791.154 сом"
 var dollar = "11.67 coм"
 var tenge = "5393.695 coм"
 var euro = "10.766 coм"
-//var oneThousandSom = [ruble, dollar, tenge, euro]
+
 var oneThousandSom = [ruble, dollar, tenge, euro]
 var som = 1000
 
